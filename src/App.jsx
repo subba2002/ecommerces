@@ -195,10 +195,10 @@ function App() {
         </div>
 
         <div className="cart-section">
-          <h1>Your Cart</h1>
+          <h1>Your Cart PRODUCTS</h1>
 
           {cart.length === 0 ? (
-            <p className="empty">Cart is empty</p>
+            <p className="empty">Cart is NULL</p>
           ) : (
             cart.map((item) => (
               <div className="cart-item" key={item.id}>
