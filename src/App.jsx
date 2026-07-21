@@ -169,7 +169,7 @@ function App() {
       </style>
 
       <nav className="navbar">
-        <h1 className="logo">ShopEasy</h1>
+        <h1 className="logo">shopcomplex</h1>
 
         <h2 className="cart">🛒 {totalItems}</h2>
       </nav>
